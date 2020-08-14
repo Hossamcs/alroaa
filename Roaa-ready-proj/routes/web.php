@@ -19,9 +19,7 @@ Route::get('/pricing','RoaaController@pricing');
 Route::get('/join','RoaaController@join');
 Route::get('/about','RoaaController@about');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
 
 
